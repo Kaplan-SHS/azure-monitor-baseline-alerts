@@ -3,22 +3,22 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "enterpriseScaleCompanyPrefix": {
-      "value": "contoso"
+      "value": "alz"
     },
     "platformManagementGroup": {
-      "value": "contoso-platform"
+      "value": "platform"
     },
     "IdentityManagementGroup": {
-      "value": "contoso-identity"
+      "value": "identity"
     },
     "managementManagementGroup": {
-      "value": "contoso-management"
+      "value": "management"
     },
     "connectivityManagementGroup": {
-      "value": "contoso-connectivity"
+      "value": "connectivity"
     },
     "LandingZoneManagementGroup": {
-      "value": "contoso-landingzones"
+      "value": "landingzones"
     },
     "enableAMBAConnectivity": {
       "value": "Yes"
@@ -72,13 +72,13 @@
       "value": "id-amba-prod-001"
     },
     "managementSubscriptionId": {
-      "value": ""
+      "value": "7c5b9e39-9dd1-4e66-aefe-28dfce982066"
     },
     "ALZMonitorResourceGroupName": {
       "value": "rg-amba-monitoring-001"
     },
     "ALZMonitorResourceGroupLocation": {
-      "value": "eastus"
+      "value": "uksouth"
     },
     "ALZMonitorResourceGroupTags": {
       "value": {
@@ -97,7 +97,10 @@
       ]
     },
     "ALZMonitorActionGroupEmail": {
-      "value": []
+      "value": [
+        "devops@kaplan.com",
+        "ignacio.fernandez@kaplan.com"
+      ]
     },
     "ALZLogicappResourceId": {
       "value": ""
